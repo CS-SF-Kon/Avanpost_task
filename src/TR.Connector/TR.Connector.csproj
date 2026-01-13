@@ -6,10 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <!-- прежде всего ссылаемся на API в соседнем проекте для динамического подтягивания изменений в нём -->
+  <ItemGroup>
+    <ProjectReference Include="..\TR.Connectors.Api\TR.Connectors.Api.csproj" />
+  </ItemGroup>
+<!-- 
   <ItemGroup>
     <Reference Include="TR.Connectors.Api">
       <HintPath>libs\TR.Connectors.Api.dll</HintPath>
     </Reference>
   </ItemGroup>
+  -->
 
 </Project>
