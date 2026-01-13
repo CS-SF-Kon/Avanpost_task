@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/src/TR.MockBackend/TR.MockBackend.csproj
+/src/TR.MockBackend
